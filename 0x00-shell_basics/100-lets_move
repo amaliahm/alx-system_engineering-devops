@@ -1,2 +1,2 @@
 #!/bin/bash
-$ find . -type f -regex ".*/[A-Z][A-Za-z0-9_]*" | mv /tmp/u/
+mv [[:upper:]]* /tmp/u
