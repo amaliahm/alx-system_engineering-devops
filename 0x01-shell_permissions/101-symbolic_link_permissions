@@ -1,2 +1,2 @@
 #!/bin/bash
-sudo chown --from=root:root vincent:staff _hello
+chown vincent:staff _hello
