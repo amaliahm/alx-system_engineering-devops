@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -ap1 | sed -e '/^.\//d' -e '/^\.\.\//d' -e ':a' -e 'N' -e '$!ba' -e 's/\n/, /g' -e 's/,$/\n/'
+ls -xamp
