@@ -1,15 +1,2 @@
 #!/bin/bash
-dest_dir="$src_dir/.."
-for file in "$src_dir"/*.html; do
-if [ -e "$dest_dir/$(basename "$file")" ]; then
-if [ "$file" -nt "$dest_dir/$(basename "$file")" ]; then
-cp "$file" "$dest_dir"
-echo "Copied $(basename "$file") to $dest_dir"
-else 
-echo "Skipping $(basename "$file"): Destination file is up to date."
-fi
-else 
-cp "$file" "$dest_dir"
-echo "Copied $(basename "$file") to $dest_dir"
-fi
-done
+cp -u *.html ..
