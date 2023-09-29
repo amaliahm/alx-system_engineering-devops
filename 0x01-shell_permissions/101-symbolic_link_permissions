@@ -1,2 +1,2 @@
 #!/bin/bash
-find . -name "_hello" -exec sudo chown vincent:staff {} +
+sudo chown --from=root:root vincent:staff
