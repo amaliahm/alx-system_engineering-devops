@@ -1,2 +1,2 @@
 #!/bin/bash
-find . -name "_hello" -xtype l -exec sudo chown vincent:staff {} +
+chown -h vincent:staff _hello
