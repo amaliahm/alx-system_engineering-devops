@@ -1,2 +1,2 @@
 #!/bin/bash
-echo "hey Ac" | tr 'Ac' 'Ze'
+tr "A" "Z" | tr "c" "e"
