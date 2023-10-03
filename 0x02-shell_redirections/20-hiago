@@ -1,2 +1,2 @@
 #!/bin/bash
-echo "cccCCC hey" | tr -d 'cC'
+tr -d "c" "C"
